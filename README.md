@@ -1,2 +1,1 @@
-# Campo-Minado
-Campo Minado em linha de comando
+# Campo Minado em linha de comando
