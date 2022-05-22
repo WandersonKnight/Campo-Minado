@@ -1,20 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package gametemplate;
-
 import java.io.IOException;
 import java.util.Random;
 import java.util.Arrays;
 
-/**
- * Esta classe deve conter somente métodos estáticos que são úteis no geral, 
- * como um método para transpor uma matriz, buscar um elemento em um vetor ou
- * limpar a tela do console.
- * @author Professor Gabriel de Carvalho
- */
 public class Util {
     public static void clearScreen() throws IOException, InterruptedException{
         new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
@@ -181,5 +168,3 @@ public class Util {
     }
 
 }
-
-//classe deveria ser static
