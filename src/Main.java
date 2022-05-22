@@ -1,32 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package gametemplate;
-
 import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- * Esta classe NÃO DEVE SER MODIFICADA, EXCETO pela linha 28.
- * @author Professor Gabriel de Carvalho
- */
 public class Main {
 
-    /**
-     * 
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
          
         Scanner teclado = new Scanner(System.in);
         int entrada;
-        Game jogo = new CampoMinado(); /// Aqui deve ser instanciado o seu jogo. substitua essa linha pelo seu jogo
-                          ///Ex. Game jogo = new MeuJogo();
+        Game jogo = new CampoMinado(); 
         
         while(true){
             try{
@@ -64,5 +48,4 @@ public class Main {
             }
         }
     }
-    
 }
