@@ -1,5 +1,3 @@
-package gametemplate;
-
 import java.sql.Array;
 import java.util.Scanner;
 
@@ -45,5 +43,4 @@ public class CampoMinado extends Game{
         System.out.println("aa");
 
     }
-
 }
